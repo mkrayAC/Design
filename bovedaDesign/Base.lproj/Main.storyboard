@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-Bold.ttf">
+            <string>Ubuntu-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="bovedaDesign" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-Ios" translatesAutoresizingMaskIntoConstraints="NO" id="2Bw-nk-ZLZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="zSt-Wi-Azi">
+                                <rect key="frame" x="104" y="52" width="166" height="166"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="166" id="CWX-zH-rh8"/>
+                                    <constraint firstAttribute="height" constant="166" id="Xjx-Qr-Uzl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="!Bienvenido a tu Bóveda de Documentos¡" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="643-Bm-a3F">
+                                <rect key="frame" x="32" y="242" width="310.5" height="18"/>
+                                <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IdJ-PL-3Mg">
+                                <rect key="frame" x="16" y="341" width="343" height="48"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="nwu-2b-xGq"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gll-rO-2E6">
+                                <rect key="frame" x="16" y="539" width="343" height="48"/>
+                                <color key="backgroundColor" red="0.44313725490196076" green="0.61960784313725492" blue="0.23137254901960785" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="xqS-ZK-1hB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="16"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qS-Gv-Fzx">
+                                <rect key="frame" x="16" y="603" width="140" height="48"/>
+                                <color key="backgroundColor" red="0.63529411764705879" green="0.83137254901960778" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="gCm-o9-rb6"/>
+                                    <constraint firstAttribute="width" constant="140" id="lob-fR-fUk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="16"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.54000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿Olvidaste tu contraseña?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkQ-xB-ano">
+                                <rect key="frame" x="102" y="395" width="171.5" height="17"/>
+                                <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="  Email" textAlignment="natural" minimumFontSize="17" disabledBackground="So" translatesAutoresizingMaskIntoConstraints="NO" id="5OU-W7-k8i">
+                                <rect key="frame" x="16" y="277" width="343" height="48"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="iUP-xG-O0g"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="hideBtn:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="RpD-6g-8rG"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2DP-cz-YCp">
+                                <rect key="frame" x="219" y="603" width="140" height="48"/>
+                                <color key="backgroundColor" red="0.67843137254901964" green="0.67843137254901964" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="A8e-kH-oCp"/>
+                                    <constraint firstAttribute="height" constant="48" id="QS0-Yz-sgH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="16"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IdJ-PL-3Mg" firstAttribute="centerX" secondItem="5OU-W7-k8i" secondAttribute="centerX" id="04z-We-HFJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Gll-rO-2E6" secondAttribute="trailing" id="0mV-fw-Pym"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2Bw-nk-ZLZ" secondAttribute="bottom" id="1YY-wa-hYu"/>
+                            <constraint firstItem="2Bw-nk-ZLZ" firstAttribute="top" secondItem="zSt-Wi-Azi" secondAttribute="bottom" constant="-218" id="1oG-nC-cvO"/>
+                            <constraint firstItem="643-Bm-a3F" firstAttribute="top" secondItem="zSt-Wi-Azi" secondAttribute="bottom" constant="24" id="Btp-ro-0l7"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Gll-rO-2E6" secondAttribute="leading" id="C7K-3c-o2N"/>
+                            <constraint firstItem="IdJ-PL-3Mg" firstAttribute="top" secondItem="5OU-W7-k8i" secondAttribute="bottom" constant="16" id="Chf-Gw-L38"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="IdJ-PL-3Mg" secondAttribute="leading" id="Hms-wh-Tt1"/>
+                            <constraint firstItem="zSt-Wi-Azi" firstAttribute="centerX" secondItem="2Bw-nk-ZLZ" secondAttribute="centerX" id="IQF-Mc-2tJ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2DP-cz-YCp" secondAttribute="bottom" constant="16" id="JL5-w1-B8a"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Gll-rO-2E6" secondAttribute="bottom" constant="80" id="KGp-ym-qvq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2DP-cz-YCp" secondAttribute="trailing" id="PYF-4F-4OH"/>
+                            <constraint firstItem="bkQ-xB-ano" firstAttribute="centerX" secondItem="IdJ-PL-3Mg" secondAttribute="centerX" id="QsE-Vr-kbB"/>
+                            <constraint firstItem="5OU-W7-k8i" firstAttribute="centerX" secondItem="643-Bm-a3F" secondAttribute="centerX" id="SD3-Zp-tV0"/>
+                            <constraint firstItem="643-Bm-a3F" firstAttribute="centerX" secondItem="zSt-Wi-Azi" secondAttribute="centerX" id="Wmv-eb-dok"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IdJ-PL-3Mg" secondAttribute="trailing" id="ZvA-Lq-hvM"/>
+                            <constraint firstItem="bkQ-xB-ano" firstAttribute="top" secondItem="IdJ-PL-3Mg" secondAttribute="bottom" constant="6" id="iVw-41-XmM"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="5OU-W7-k8i" secondAttribute="leading" id="ieH-6z-lw6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4qS-Gv-Fzx" secondAttribute="bottom" constant="16" id="joM-ik-R1u"/>
+                            <constraint firstItem="5OU-W7-k8i" firstAttribute="top" secondItem="zSt-Wi-Azi" secondAttribute="bottom" constant="59" id="oEm-4y-UuR"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="4qS-Gv-Fzx" secondAttribute="leading" id="tpp-uR-D6I"/>
+                            <constraint firstAttribute="trailing" secondItem="2Bw-nk-ZLZ" secondAttribute="trailing" id="uz5-hk-kKs"/>
+                            <constraint firstItem="2Bw-nk-ZLZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="vGq-0i-ufC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5OU-W7-k8i" secondAttribute="trailing" id="yHp-Qc-HEl"/>
+                            <constraint firstItem="2Bw-nk-ZLZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zlS-Zc-eMg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailField" destination="5OU-W7-k8i" id="yDV-p2-9ku"/>
+                        <outlet property="passwordField" destination="IdJ-PL-3Mg" id="11y-sB-HT3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="134.48275862068968"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="174" height="174"/>
+        <image name="So" width="16" height="16"/>
+        <image name="img-Ios" width="375" height="667"/>
+    </resources>
+</document>
